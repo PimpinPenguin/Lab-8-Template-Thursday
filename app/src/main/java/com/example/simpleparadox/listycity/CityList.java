@@ -8,6 +8,7 @@ import java.util.List;
  * This is a class that keeps track of a list of city objects
  */
 public class CityList {
+    public static final String testString = "Very Useful Static String";
     private List<City> cities = new ArrayList<>();
 
     /**

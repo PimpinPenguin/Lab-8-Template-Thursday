@@ -93,4 +93,9 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testReadVeryUsefulStaticString() {
+        assertTrue(CityList.testString.equals("Very Useful Static String"));
+    }
 }

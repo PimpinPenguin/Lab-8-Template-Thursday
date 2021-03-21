@@ -79,5 +79,7 @@ public class CityList {
     }
 
 
-    public void clearCities() {}
+    public void clearCities() {
+        cities.clear();
+    }
 }
